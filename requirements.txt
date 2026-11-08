@@ -1,0 +1,10 @@
+streamlit>=1.50
+psycopg[binary]>=3.2
+pgvector>=0.3
+databricks-sql-connector>=3.5
+pymongo>=4.8
+dnspython>=2.6
+pandas>=2.2
+# Needed for week10_07_embed_films.py and for typing a description in the Vector search tab.
+# You installed it in Week 9; if not, remove the # below (large download, about 1 GB with PyTorch):
+# sentence-transformers>=3.0
